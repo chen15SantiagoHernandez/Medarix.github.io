@@ -1,0 +1,18 @@
+package com.example.medarix.listaAjuste;
+
+import android.os.Bundle;
+import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.medarix.R;
+
+public class InfoCuentaActivity extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_info_cuenta);
+
+    }
+}
+

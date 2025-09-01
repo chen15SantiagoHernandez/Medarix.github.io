@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_inicial"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="Inicio" />
+    <item  android:id="@+id/menu_enfermedades"
+        android:icon="@android:drawable/sym_action_chat"
+        android:title="Enfermedades"/>
+    <item
+        android:id="@+id/menu_comunidades"
+        android:icon="@android:drawable/sym_action_chat"
+        android:title="Comunidades" />
+    <item
+        android:id="@+id/menu_perfil"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Perfil" />
+</menu>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:id="@+id/tvTerminos"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Título principal (como H1) -->
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estos son los Términos y Condiciones de la aplicación"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingBottom="12dp"/>
+
+        <!-- Sección 1 (como H2) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Uso de la aplicación"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"/>
+
+        <!-- Texto normal (como párrafo) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="El usuario se compromete a utilizar la aplicación únicamente para fines personales y legales. Queda prohibido realizar actividades que puedan dañar, sobrecargar o afectar el funcionamiento normal del servicio, incluyendo intentos de acceso no autorizado a sistemas, cuentas o bases de datos."
+            android:textSize="16sp"/>
+
+        <!-- Sección 2 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Privacidad de datos"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La aplicación recopila únicamente los datos necesarios para su correcto funcionamiento. La información personal será tratada con estricta confidencialidad, conforme a la legislación vigente en materia de protección de datos. En ningún caso se compartirán datos con terceros sin consentimiento previo, salvo requerimiento legal."
+            android:textSize="16sp"/>
+
+        <!-- Sección 3 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Responsabilidad del usuario."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" El usuario es responsable de la información que introduce en la aplicación, así como del uso que haga de ella. Cualquier incumplimiento de los presentes términos podrá dar lugar a la suspensión o cancelación de la cuenta sin previo aviso."
+            android:textSize="16sp"/>
+
+        <!-- Sección 4 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Cambios y actualizaciones."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Nos reservamos el derecho de modificar o actualizar los presentes Términos y Condiciones en cualquier momento. Los cambios serán notificados a través de la aplicación y entrarán en vigor desde el momento de su publicación."
+            android:textSize="16sp"/>
+        <!-- Sección 5 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Contacto de soporte."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" En caso de dudas, problemas técnicos o necesidad de soporte, el usuario podrá contactar con nuestro equipo de atención al cliente a través del correo electrónico soporte@miapp.com o mediante la sección de 'Ayuda y soporte' disponible en la aplicación."
+            android:textSize="16sp"/>
+    </LinearLayout>
+</ScrollView>

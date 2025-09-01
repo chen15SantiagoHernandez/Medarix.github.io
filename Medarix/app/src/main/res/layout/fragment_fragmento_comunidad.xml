@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF9FC"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foros y comunidades"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Subtítulo -->
+    <TextView
+        android:id="@+id/tvSubtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Conectan con personas que comparten tus intereses o condiciones"
+        android:textSize="14sp" />
+
+    <!-- Buscar -->
+
+    <!-- Chips de categorías -->
+    <SearchView
+        android:id="@+id/buscadorComunidades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Lista de noticias -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerComunidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp" />
+
+    <!-- Botón inferior -->
+</LinearLayout>

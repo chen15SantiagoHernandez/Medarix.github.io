@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Medarix</string>
+    <string name="logo">Logo de Medarix</string>
+    <string name="cargando">Cargando...</string>
+    <string name="add">Añadir</string>
+    <string name="delete">Eliminar</string>
+    <string name="help_title">Ayuda</string>
+    <string name="faq_title">Preguntas frecuentes</string>
+    <string name="faq_content"><![CDATA[
+    ¿Cómo creo un recordatorio? Abre la sección “Recordatorios”, toca el botón + y elige la hora.\n¿Cómo elimino un recordatorio? En la lista de recordatorios, toca el icono de papelera.\nNo me llega la notificación. Verifica que las notificaciones estén permitidas en el sistema del teléfono.\n¿Puedo cambiar la hora de un recordatorio? Elimínalo y créalo de nuevo con la nueva hora (versión básica).
+]]></string>
+    <string name="untitled">Título de la publicación</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/item_articulo.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/txtNombreArticulo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Artículo"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/btnFavorito"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@android:drawable/btn_star_big_off"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Marcar como favorito" />
+</LinearLayout>
